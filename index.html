@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP first website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="bg" src="usa.jpg" alt="usa">
+    <div class="container">
+        <h1>Welcome to USA Trip Form</h1>
+        <p>Enter your details and submit this form to confirm your participartion in the trip</p>
+        <p class="submitmsg">Thanks for submitting your form. we are happy to see you joining us for USA trip </p>
+        <form action="index.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name">
+            <input type="text" name="age" placeholder="Enter your age">
+            <input type="text" name="gender" placeholder="Enter your gender">
+            <input type="email" name="email" placeholder="Enter your email">
+            <input type="text" name="phone" placeholder="Enter your phone">
+            <textarea name="other" id="other" placeholder="Enter any other information"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
